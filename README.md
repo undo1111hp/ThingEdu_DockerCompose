@@ -1,7 +1,7 @@
 # Project: ThingEdu
 ## Table of Contents
 
-1. [Getting Started](#Getting Started)
+1. [Getting Started](#Getting-Started)
 2. [Prerequisties](#Prerequisties)
 3. [Installation](#Installation)
 
