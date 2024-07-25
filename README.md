@@ -9,11 +9,11 @@ Follow the steps below to get your local copy run
 
 ### Installation
 
-1. Clone the repo: 
-'''sh
+1. Clone the repo:
+```sh
 "git clone https://github.com/undo1111hp/ThingEdu_DockerCompose"
-'''
-2. cd to the cloned folder and do:
-'''sh
+```
+3. cd to the cloned folder and do:
+```sh
 "docker compose up -d"
-'''
+```
