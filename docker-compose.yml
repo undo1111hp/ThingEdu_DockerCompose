@@ -1,0 +1,27 @@
+version: "1"
+name: "thingedutest"
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    volumes:
+      - ./mosquitto-data:/data
+    networks:
+      - localnet
+    ports:
+      - "1883:1883"
+  node-red:
+    image: nodered/node-red
+    volumes:
+      - ./node-red-data:/data
+    networks:
+      - localnet
+    ports:
+      - "1880:1880"
+    depends_on:
+      - mosquitto
+networks:
+  localnet:
+# Define volumes (optional)
+volumes:
+  node-red-data:  # Volume for Node-RED data
+  mosquitto-data:  # Volume for Mosquitto data
