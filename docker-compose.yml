@@ -10,7 +10,7 @@ services:
     ports:
       - "1883:1883"
   node-red:
-    image: nodered/node-red
+    image: undo1111hp/thingedu-nodered
     volumes:
       - ./node-red-data:/data
     networks:
